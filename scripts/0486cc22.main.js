@@ -1,1 +1,0 @@
-$(window).load(function(){$("#preloader").delay(1e3).fadeOut("slow")}),$(document).ready(function(){var a=$("#hero"),b=a.find("#hero-fade");$(window).on("scroll",function(){var c=$(this).scrollTop(),d=.8*a.height(),e=1-(d-c)/d;1>=e&&b.css({opacity:e})})});
