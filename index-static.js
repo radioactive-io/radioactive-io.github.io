@@ -28143,6 +28143,7 @@ module.exports =
 	/* Proprietary and Confidential - This code is not for redistribution. */
 
 	var onRouteUpdate = function onRouteUpdate() {
+	  window.scrollTo(0, 0);
 	  document.getElementById('content').focus();
 	};
 
