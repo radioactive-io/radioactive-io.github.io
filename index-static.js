@@ -49991,9 +49991,7 @@ module.exports =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Anchor = __webpack_require__(251);
-
-	var _Anchor2 = _interopRequireDefault(_Anchor);
+	var _reactRouter = __webpack_require__(186);
 
 	var _Box = __webpack_require__(263);
 
@@ -50031,18 +50029,18 @@ module.exports =
 	        _Menu2.default,
 	        { inline: true, direction: 'row', flex: 'grow', justify: 'end', align: 'end' },
 	        _react2.default.createElement(
-	          _Anchor2.default,
-	          { href: '/#products' },
+	          _reactRouter.Link,
+	          { to: '/#products' },
 	          'Products'
 	        ),
 	        _react2.default.createElement(
-	          _Anchor2.default,
-	          { href: '/#services' },
+	          _reactRouter.Link,
+	          { to: '/#services' },
 	          'Services'
 	        ),
 	        _react2.default.createElement(
-	          _Anchor2.default,
-	          { href: '/#contact' },
+	          _reactRouter.Link,
+	          { to: '/#contact' },
 	          'Contact Us'
 	        )
 	      ),
@@ -51610,6 +51608,8 @@ module.exports =
 
 	var _Anchor2 = _interopRequireDefault(_Anchor);
 
+	var _reactRouter = __webpack_require__(186);
+
 	var _Box = __webpack_require__(263);
 
 	var _Box2 = _interopRequireDefault(_Box);
@@ -51716,8 +51716,16 @@ module.exports =
 	                { tag: 'h3' },
 	                'Links'
 	              ),
-	              _react2.default.createElement(_Anchor2.default, { href: '/privacy', label: 'Privacy Policy' }),
-	              _react2.default.createElement(_Anchor2.default, { href: '/terms', label: 'Terms of Use' }),
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/privacy' },
+	                'Privacy Policy'
+	              ),
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/terms' },
+	                'Terms of Use'
+	              ),
 	              _react2.default.createElement(
 	                _Paragraph2.default,
 	                null,
