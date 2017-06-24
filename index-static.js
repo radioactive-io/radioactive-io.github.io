@@ -50026,7 +50026,7 @@ module.exports =
 	        pad: { horizontal: 'medium' }, flex: 'grow' },
 	      _react2.default.createElement(
 	        'a',
-	        { href: 'www.radioactive.io' },
+	        { href: 'http://www.radioactive.io' },
 	        _react2.default.createElement(_Image2.default, { src: '/img/radioactive-logo-inverse.svg', size: 'small' })
 	      ),
 	      _react2.default.createElement(_Box2.default, { pad: 'small' }),
@@ -51655,13 +51655,21 @@ module.exports =
 	var Footer = function (_Component) {
 	  _inherits(Footer, _Component);
 
-	  function Footer() {
+	  function Footer(props) {
 	    _classCallCheck(this, Footer);
 
-	    return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+	    var _this = _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).call(this, props));
+
+	    _this.handleEmailClick = _this.handleEmailClick.bind(_this);
+	    return _this;
 	  }
 
 	  _createClass(Footer, [{
+	    key: 'handleEmailClick',
+	    value: function handleEmailClick() {
+	      window.open('mailto:he%6clo@%72a%64i&#111;%61%63%74iv%65%2e%69o');
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
@@ -51688,7 +51696,7 @@ module.exports =
 	              _react2.default.createElement(
 	                _Box2.default,
 	                { pad: { vertical: 'small' } },
-	                _react2.default.createElement(_Anchor2.default, { href: "mailto:he%6clo@%72a%64i&#111;%61%63%74iv%65%2e%69o",
+	                _react2.default.createElement(_Anchor2.default, { onClick: this.handleEmailClick,
 	                  label: 'email',
 	                  icon: _react2.default.createElement(_SocialMail2.default, null),
 	                  target: '_self'
