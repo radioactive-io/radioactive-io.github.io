@@ -51658,16 +51658,26 @@ module.exports =
 	  function Footer(props) {
 	    _classCallCheck(this, Footer);
 
-	    var _this = _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).call(this, props));
-
-	    _this.handleEmailClick = _this.handleEmailClick.bind(_this);
-	    return _this;
+	    return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).call(this, props));
 	  }
 
 	  _createClass(Footer, [{
-	    key: 'handleEmailClick',
-	    value: function handleEmailClick() {
-	      window.open('mailto:he%6clo@%72a%64i&#111;%61%63%74iv%65%2e%69o');
+	    key: 'renderEmailAnchor',
+	    value: function renderEmailAnchor() {
+	      var coded = "V5QQM@wBPJMBS2JT5.JM";
+	      var key = "LuQ6N5MBbckH9TfXm02zrCidOFhy3SUWKD1qj4GEw7JPlRVeoaxsAgIvn8YZtp";
+	      var shift = coded.length;
+	      var link = '';
+	      for (var i = 0; i < coded.length; i++) {
+	        if (key.indexOf(coded.charAt(i)) == -1) {
+	          var ltr = coded.charAt(i);
+	          link += ltr;
+	        } else {
+	          var _ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length;
+	          link += key.charAt(_ltr);
+	        }
+	      }
+	      return _react2.default.createElement(_Anchor2.default, { href: 'mailto:' + link, label: 'email', icon: _react2.default.createElement(_SocialMail2.default, null), target: '_self' });
 	    }
 	  }, {
 	    key: 'render',
@@ -51696,11 +51706,7 @@ module.exports =
 	              _react2.default.createElement(
 	                _Box2.default,
 	                { pad: { vertical: 'small' } },
-	                _react2.default.createElement(_Anchor2.default, { onClick: this.handleEmailClick,
-	                  label: 'email',
-	                  icon: _react2.default.createElement(_SocialMail2.default, null),
-	                  target: '_self'
-	                })
+	                this.renderEmailAnchor()
 	              ),
 	              _react2.default.createElement(
 	                _Box2.default,
