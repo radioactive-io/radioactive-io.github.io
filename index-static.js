@@ -50024,7 +50024,11 @@ module.exports =
 	      { size: { width: { max: 'xxlarge' } }, direction: 'row',
 	        responsive: false, justify: 'start', align: 'center',
 	        pad: { horizontal: 'medium' }, flex: 'grow' },
-	      _react2.default.createElement(_Image2.default, { src: '/img/radioactive-logo-inverse.svg', size: 'small' }),
+	      _react2.default.createElement(
+	        'a',
+	        { href: 'www.radioactive.io' },
+	        _react2.default.createElement(_Image2.default, { src: '/img/radioactive-logo-inverse.svg', size: 'small' })
+	      ),
 	      _react2.default.createElement(_Box2.default, { pad: 'small' }),
 	      _react2.default.createElement(
 	        _Menu2.default,
@@ -51684,7 +51688,7 @@ module.exports =
 	              _react2.default.createElement(
 	                _Box2.default,
 	                { pad: { vertical: 'small' } },
-	                _react2.default.createElement(_Anchor2.default, { href: "mailto:&#104;&#101;&#108;&#108;&#111;&#64;&#114;&#97;&#100;" + "&#105;&#111;&#97;&#99;&#116;&#105;&#118;&#101;&#46;&#105;&#111;",
+	                _react2.default.createElement(_Anchor2.default, { href: "mailto:he%6clo@%72a%64i&#111;%61%63%74iv%65%2e%69o",
 	                  label: 'email',
 	                  icon: _react2.default.createElement(_SocialMail2.default, null),
 	                  target: '_self'
