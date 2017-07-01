@@ -28104,9 +28104,9 @@ module.exports =
 	              ),
 	              basis: '1/2',
 	              link: _react2.default.createElement(
-	                _Label2.default,
-	                { align: 'center', margin: 'none' },
-	                'Available July 2017'
+	                _Anchor2.default,
+	                { align: 'center', primary: true, href: 'https://www.1-goal.com' },
+	                'Learn More'
 	              )
 	            })
 	          )
