@@ -51242,7 +51242,7 @@ module.exports =
 	        { full: 'horizontal' },
 	        _react2.default.createElement(
 	          _Box2.default,
-	          { id: 'contact', colorIndex: 'neutral-1', pad: 'large', align: 'center', full: 'horizontal' },
+	          { id: 'contact', colorIndex: 'neutral-1', pad: 'medium', align: 'center', full: 'horizontal' },
 	          _react2.default.createElement(
 	            _Box2.default,
 	            { className: 'footer-cards-container', pad: { vertical: "medium" },
@@ -51250,7 +51250,7 @@ module.exports =
 	            _react2.default.createElement(
 	              _Box2.default,
 	              {
-	                pad: { horizontal: "large" },
+	                pad: 'large',
 	                basis: '1/2',
 	                separator: 'right' },
 	              _react2.default.createElement(
@@ -51284,7 +51284,7 @@ module.exports =
 	            ),
 	            _react2.default.createElement(
 	              _Box2.default,
-	              { pad: { horizontal: "large" }, basis: '1/2' },
+	              { pad: 'large', basis: '1/2' },
 	              _react2.default.createElement(
 	                _Heading2.default,
 	                { tag: 'h3' },
