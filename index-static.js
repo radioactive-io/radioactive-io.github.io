@@ -28046,11 +28046,11 @@ module.exports =
 	        ),
 	        _react2.default.createElement(
 	          _Box2.default,
-	          { id: 'products', pad: 'large', align: 'center', colorIndex: 'brand' },
+	          { id: 'solutions', pad: 'large', align: 'center', colorIndex: 'brand' },
 	          _react2.default.createElement(
 	            _Heading2.default,
 	            { tag: 'h2', strong: true, margin: 'none' },
-	            'Products We Offer'
+	            'Solutions We Offer'
 	          ),
 	          _react2.default.createElement(
 	            _Box2.default,
@@ -49590,8 +49590,8 @@ module.exports =
 	        { inline: true, direction: 'row', flex: 'grow', justify: 'end', align: 'end' },
 	        _react2.default.createElement(
 	          _reactRouter.Link,
-	          { to: '/#products' },
-	          'Products'
+	          { to: '/#solutions' },
+	          'Solutions'
 	        ),
 	        _react2.default.createElement(
 	          _reactRouter.Link,
