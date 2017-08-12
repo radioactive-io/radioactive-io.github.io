@@ -28100,7 +28100,7 @@ module.exports =
 	              description: _react2.default.createElement(
 	                _Paragraph2.default,
 	                { align: 'center', size: 'large', margin: 'medium' },
-	                'You have one goal - win your company war. Engage your entire organization and execute on your most important goal through regular, focused, and motivating activity.'
+	                'You have one goal - win your company war. Turn your strategy into action through effective planning and regular, focused, and motivating activity.'
 	              ),
 	              basis: '1/2',
 	              link: _react2.default.createElement(
@@ -28175,12 +28175,12 @@ module.exports =
 	                heading: _react2.default.createElement(
 	                  _Heading2.default,
 	                  { tag: 'h2' },
-	                  'Do you need help setting and executing on organizational goals?'
+	                  'Do you need help setting and executing on strategic goals?'
 	                ),
 	                description: _react2.default.createElement(
 	                  _Paragraph2.default,
 	                  { size: 'large', margin: 'medium' },
-	                  'As a companion to OneGoal, we will work with your organization to create a framework for establishing goals and the associated tactics/activities to achieve those goals.'
+	                  'As a companion to OneGoal, we will work with your organization to create a framework for establishing goals and the associated activities to achieve those goals.'
 	                )
 	              }),
 	              _react2.default.createElement(_Card2.default, {
