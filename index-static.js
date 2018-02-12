@@ -52942,6 +52942,17 @@ module.exports =
 	              _react2.default.createElement(
 	                'strong',
 	                null,
+	                'Rewards'
+	              ),
+	              '\u201D means those rewards, recognitions, special events, perks and other awards that Customer may choose to award to employees through the Service for performance.'
+	            ),
+	            _react2.default.createElement(
+	              Paragraph,
+	              null,
+	              '\u201C',
+	              _react2.default.createElement(
+	                'strong',
+	                null,
 	                'Software'
 	              ),
 	              '\u201D means Radioactive\u2019s proprietary software, and all updates and associated documentation thereto made available as a part of a Service pursuant to this Agreement.  '
@@ -53045,6 +53056,11 @@ module.exports =
 	              Paragraph,
 	              null,
 	              'Radioactive has no obligation to monitor Your use of the Service, or any other customer\u2019s use of the Service.  However, Radioactive reserves the right to access, acquire, use, monitor, remove, retain or disclose any information, including Data, as necessary to satisfy any applicable law, rule or regulation or to respond to legal process or law enforcement and government requests, and You hereby authorize such action. '
+	            ),
+	            _react2.default.createElement(
+	              Paragraph,
+	              null,
+	              '3.7 If You choose to enable the rewards and recognition module availablele on the Service, you acknowledge and agree that You shall be solely responsible for designing, choosing and providing the Rewards, including determining the criteria for earning such Rewards by Your Authorized Users.  You shall be solely responsible for ensuring compliance with applicable law, including all employment laws, in offering, granting and delivering all Rewards, and You acknowledge that the Service is only a platform for You to monitor and make such Rewards available.  You will be solely responsible for delivering all Rewards and will not grant any Rewards in a discriminatory or otherwise unlawful fashion.  You will be responsible for paying and/or withholding of any employment or other taxes in connection with the Rewards.'
 	            ),
 	            _react2.default.createElement(
 	              Heading,
@@ -53238,7 +53254,7 @@ module.exports =
 	            _react2.default.createElement(
 	              Paragraph,
 	              null,
-	              'You, at Your expense, shall indemnify, defend and hold Radioactive and its officers, directors, owners, employees, and affiliates harmless from and against all liability, damages, injuries, losses, costs and expenses (including attorney\u2019s fees) arising out of or relating to Your use of the Service, including but not limited to liability, damages, injuries, losses, costs and expenses arising from any claims relating to: (a) Your breach of any representations, warranties, or covenants in this Agreement, (b) Your compliance with applicable laws and regulations, and (c) the Data or Your use of any Results.  Radioactive shall provide You with prompt written notice of any such claim.'
+	              'You, at Your expense, shall indemnify, defend and hold Radioactive and its officers, directors, owners, employees, and affiliates harmless from and against all liability, damages, injuries, losses, costs and expenses (including attorney\u2019s fees) arising out of or relating to Your use of the Service, including but not limited to liability, damages, injuries, losses, costs and expenses arising from any claims relating to: (a) Your breach of any representations, warranties, or covenants in this Agreement, (b) Your compliance with applicable laws and regulations, and (c) the Data or Your use of any Results, and (d) the awarding, fulfilling, revoking or other actions relating to the Rewards, including any failure by you to pay or withhold any applicable employment or other taxes or any claims by employees relating to the granting, fulfillment, revocation of or otherwise relating to the Rewards. Radioactive shall provide You with prompt written notice of any such claim.'
 	            ),
 	            _react2.default.createElement(
 	              Heading,
