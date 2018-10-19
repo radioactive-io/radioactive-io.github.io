@@ -28054,7 +28054,7 @@ module.exports =
 	          ),
 	          _react2.default.createElement(
 	            _Box2.default,
-	            { pad: { vertical: "medium" }, size: { width: 'xxlarge' }, direction: 'row', flex: 'grow' },
+	            { pad: { vertical: "medium" }, direction: 'row', flex: 'grow' },
 	            _react2.default.createElement(_Card2.default, {
 	              pad: { horizontal: "large" },
 	              contentPad: 'medium',
@@ -28079,7 +28079,34 @@ module.exports =
 	              link: _react2.default.createElement(
 	                _Label2.default,
 	                { align: 'center', margin: 'none' },
-	                'Available December 2017'
+	                'Call us for More Information'
+	              ),
+	              separator: 'right' }),
+	            _react2.default.createElement(_Card2.default, {
+	              pad: { horizontal: "large" },
+	              reverse: true,
+	              thumbnail: '/img/okcommit-screenshot.png',
+	              contentPad: 'medium',
+	              heading: _react2.default.createElement(
+	                _Box2.default,
+	                { pad: { vertical: 'small' }, justify: 'end', style: { minHeight: "100px" } },
+	                _react2.default.createElement(_Image2.default, { src: '/img/okcommit-logo-white.svg' })
+	              ),
+	              label: _react2.default.createElement(
+	                _Label2.default,
+	                { uppercase: true, align: 'center', margin: 'none' },
+	                'OK Commit'
+	              ),
+	              description: _react2.default.createElement(
+	                _Paragraph2.default,
+	                { align: 'center', size: 'large', margin: 'medium' },
+	                'Accelerate the success of your OKR implementation.  With OK Commit, you can realize increased organizational alignment, better communication, increased focus, and better performance.'
+	              ),
+	              basis: '1/2',
+	              link: _react2.default.createElement(
+	                _Anchor2.default,
+	                { align: 'center', primary: true, href: 'http://www.okcommit.com' },
+	                'Learn More'
 	              ),
 	              separator: 'right' }),
 	            _react2.default.createElement(_Card2.default, {
